@@ -1,0 +1,43 @@
+$primary: #428bca;
+
+.custom-img {
+  height: 13rem;
+}
+
+.title h5,
+.title p {
+  display: inline;
+}
+
+.title {
+  margin-bottom: 0.5rem;
+}
+
+.project-tag {
+  color: #fff;
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+.custom-col {
+  padding-right: 1rem;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+@media (min-width: 1025px) {
+  .subTitle {
+    display: none;
+  }
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.05);
+}
