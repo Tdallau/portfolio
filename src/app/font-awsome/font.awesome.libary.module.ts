@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { library } from '@fortawesome/fontawesome-svg-core';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
 import { faGithub, faDocker } from '@fortawesome/free-brands-svg-icons';
@@ -20,18 +20,20 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
   imports: [CommonModule]
 })
 export class FontAwesomeLibaryModule {
-  constructor() {
-    library.add(faGithub);
-    library.add(faLinkedinIn);
-    library.add(faHtml5);
-    library.add(faCss3Alt);
-    library.add(faJs);
-    library.add(faAngular);
-    library.add(faReact);
-    library.add(faPython);
-    library.add(faNpm);
-    library.add(faCheck);
-    library.add(faFile);
-    library.add(faDocker);
+  constructor(library: FaIconLibrary) {
+    library.addIcons(
+      faGithub, 
+      faLinkedinIn, 
+      faHtml5, 
+      faCss3Alt, 
+      faJs, 
+      faAngular, 
+      faReact, 
+      faPython, 
+      faNpm, 
+      faCheck, 
+      faFile, 
+      faDocker
+    );
   }
 }
