@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Project } from '../_models/project';
-import projects from '../_json/projects.json';
+import * as projects from '../_json/projects.json';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectModalComponent } from '../_modals/project-modal/project-modal.component';
 
@@ -11,7 +11,7 @@ import { ProjectModalComponent } from '../_modals/project-modal/project-modal.co
 })
 export class ProjectsComponent implements OnInit {
   public baseUrl = 'https://firebasestorage.googleapis.com/v0/b/portfolio-b3654.appspot.com/o/';
-  public projects: Project[] = projects;
+  public projects: Project[] = (projects as any).default;
   public success = 'btn-primary';
   constructor(private modalService: NgbModal) { }
 

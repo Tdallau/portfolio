@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faDocker } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCss3Alt } from '@fortawesome/free-brands-svg-icons';
@@ -32,5 +32,6 @@ export class FontAwesomeLibaryModule {
     library.add(faNpm);
     library.add(faCheck);
     library.add(faFile);
+    library.add(faDocker);
   }
 }
