@@ -1,0 +1,18 @@
+.technologies {
+  margin-bottom: 6px;
+}
+
+.technology {
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 6px;
+  margin-right: 6px;
+  max-width: 100px;
+  display: inline;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.technology:hover {
+  opacity: 0.7;
+}

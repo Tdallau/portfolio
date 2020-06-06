@@ -1,0 +1,29 @@
+.subTitle {
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+
+@media (min-width: 1025px) {
+  .subTitle {
+    display: none;
+  }
+}
+
+.list-inline-item :hover,
+.other:hover {
+  color: #428bca;
+  cursor: pointer;
+}
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+.grow {
+  transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.2);
+}

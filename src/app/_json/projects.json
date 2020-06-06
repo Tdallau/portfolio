@@ -1,0 +1,106 @@
+[{
+    "title": "Mijn Recepten",
+    "image": "img%2Fprojects%2Fmijnrecepten.png?alt=media&token=790584c3-66ed-4731-87f1-d63d4b558dc2",
+    "buttons": [{
+      "title": "Github",
+      "style": "btn-success",
+      "url": "https://github.com/Tdallau/mijn-recepten"
+    }],
+    "description": "This is a website that I especially developed for my mother, she can use it to look up a number of recipes.",
+    "technologies": [{
+        "name": "Angular 2+",
+        "color": "#FF0000",
+        "url": "https://angular.io"
+      },
+      {
+        "name": "Dotnet core",
+        "color": "#8A2BE2",
+        "url": "https://dotnet.microsoft.com"
+      }
+    ],
+    "tag": {
+      "name": "Home",
+      "color": "#428bca"
+    }
+  },
+  {
+    "title": "Mobile App",
+    "image": "img%2Fprojects%2Fapp.JPG?alt=media&token=eae49a0b-4f4f-466c-8ce6-c1d9659ac326",
+    "video": "HSKoYua2D0A",
+    "description": "For this school project we had to think of a problem for which we had to make a mobile application to solve this problem.",
+    "technologies": [{
+        "name": "React native",
+        "color": "#33DAFF",
+        "url": "https://facebook.github.io/react-native/"
+      },
+      {
+        "name": "Firebase",
+        "color": "#FF8C00",
+        "url": "https://firebase.google.com"
+      }
+    ],
+    "tag": {
+      "name": "School",
+      "color": "#DC143C"
+    }
+  },
+  {
+    "title": "Webshop",
+    "image": "img%2Fprojects%2Fwebshop.png?alt=media&token=879a99a2-3de7-4b1d-bdd7-da50f7e091ae",
+    "video": "WjSgGdT1XyI",
+    "buttons": [{
+        "title": "Github - backend",
+        "style": "btn-success",
+        "url": "https://github.com/Tdallau/webshop_backend"
+      },
+      {
+        "title": "Github - frontend",
+        "style": "btn-primary",
+        "url": "https://github.com/lenscas/webshop_hro"
+      }
+    ],
+    "description": "we had to create a webshop for this school project. I have mainly focused on the backend.",
+    "technologies": [{
+        "name": "React",
+        "color": "#33DAFF",
+        "url": "https://facebook.github.io/react-native/"
+      },
+      {
+        "name": "Dotnet core",
+        "color": "#8A2BE2",
+        "url": "https://dotnet.microsoft.com"
+      }
+    ],
+    "tag": {
+      "name": "School",
+      "color": "#DC143C"
+    }
+  },
+  {
+    "title": "Emerging Technologies",
+    "image": "img%2Fprojects%2FprodjectD.jpeg?alt=media&token=fecac5ae-9f3e-4780-85f9-0906c262eb47",
+    "video": "m2lioQHzc1Y",
+    "description": "For this school project we had to make an application using an emerging technology. The group that I was in made use of face identification through the cognitive services of microsoft.",
+    "technologies": [{
+        "name": "React",
+        "color": "#33DAFF",
+        "url": "https://facebook.github.io/react-native/"
+      },
+      {
+        "name": "Nodejs (Typescript)",
+        "color": "#2CF215",
+        "url": "https://nodejs.org/en/"
+      },
+      {
+        "name": "Cognitive Services (Face API)",
+        "color": "#0C81E8",
+        "url": "https://azure.microsoft.com/en-us/services/cognitive-services/"
+      }
+    ],
+    "tag": {
+      "name": "School",
+      "color": "#DC143C"
+    }
+  }
+
+]
