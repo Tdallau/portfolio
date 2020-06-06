@@ -9,8 +9,8 @@
     <div class="row">
       <div class="col-sm">
         <div *ngIf='hasVideo; else elseBlock'>
-          <youtube-player [videoId]="project.video" (ready)="savePlayer($event)" (change)="onStateChange($event)">
-          </youtube-player>
+          <!-- <youtube-player [videoId]="project.video" (ready)="savePlayer($event)" (change)="onStateChange($event)">
+          </youtube-player> -->
         </div>
         <ng-template #elseBlock>
           <img style='width: 100%' [src]='project.image' alt="Card image cap">

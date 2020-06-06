@@ -16,7 +16,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { FontAwesomeLibaryModule } from './font-awsome/font.awesome.libary.module';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
+// import { NgxYoutubePlayerModule } from 'ngx-youtube-player';
 
 import { ProjectModalComponent } from './_modals/project-modal/project-modal.component';
 
@@ -39,7 +39,7 @@ import { ProjectModalComponent } from './_modals/project-modal/project-modal.com
     FontAwesomeModule,
     FontAwesomeLibaryModule,
     NgbModule,
-    NgxYoutubePlayerModule.forRoot()
+    // NgxYoutubePlayerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],
