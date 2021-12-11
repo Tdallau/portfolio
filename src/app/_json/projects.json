@@ -2,7 +2,7 @@
   {
     "title": "React native",
     "image": "img%2Fprojects%2FreactNativeApp.png?alt=media&token=790584c3-66ed-4731-87f1-d63d4b558dc2",
-    "description": "This is an app in progress i am making in react native with a dotnet core backend. i have worked mainly on the app and made a part of the backend.",
+    "description": "This is an app in progress I am making in React Native with a .NET Core backend. I have worked mainly on the app and developed a part of the backend.",
     "technologies": [
       {
         "name": "React native",
